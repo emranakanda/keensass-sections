@@ -1,0 +1,197 @@
+/***********************************
+MEDIA QUERIES
+***********************************/
+@media only screen and (max-width: 1400px) {
+	/* Basic Template Styles */
+  	.basic {
+  		
+  		h2 { 
+	  		margin-bottom: 20px; 
+	  	}
+  	}
+
+
+}/* 1400 */
+
+
+@media only screen and (max-width : 1199px) {
+	.service-area, .statistics-area, .gallery-area  {
+		padding-top: 40px;
+		margin-bottom: 40px;
+		.service-content {
+			
+			.separator {
+				line-height: 1;
+				font-size: 14px !important;
+				margin-bottom: 16px;
+			}
+		  
+	
+			h2 {
+				color: #091069;
+				font-weight: 700;
+				line-height: 1.2;
+				font-size: 30px !important;
+				font-family: 'Poppins', sans-serif;
+			}
+		}
+	}
+
+	.statistics-area {
+		margin-bottom: 100px;
+	
+		.service-content {
+			margin-bottom: 40px;
+		}
+	
+		.counter-items {
+
+			h2 {
+				font-size: 40px !important;
+			}
+	
+			p {
+				font-size: 16px !important;
+			}
+		}
+	}
+
+
+	.gallery-area {
+
+		.service-content {
+			
+		}
+
+		.gallery-menu {
+
+			button {
+				margin-top: 10px;
+			}
+		}
+	}	
+
+}/* 1199 */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  	/* force ipad dropdown carats */
+	.open .dropdown-menu>li,
+	.open .dropdown-menu>li>a:hover {
+		display:inline-block!important;
+	}
+}/* iPad Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+}/* iPad Portrait */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+}/* iPad Landscape */	
+
+@media only screen and (max-width : 991px) {
+    .service-area {
+       
+    }
+	
+	
+	/* Basic Template Styles */
+	.basic_left, .basic_right { 
+		
+		img {
+			float: none; 
+			margin: 0 auto 50px auto; 
+		}
+	}
+
+	.basic {
+
+		.btn { 
+			clear: both !important; 
+			display: block !important; 
+			// min-width: 225px; 
+			// max-width: 340px; 
+		} 
+	}
+
+}/* 991 */
+
+@media only screen and (max-width : 767px) {
+
+
+}/* 767 */
+
+@media only screen and (max-width : 680px) {
+
+	/* Basic Template Styles*/
+	.basic { 
+		padding: 25px 0; 
+
+		ul { 
+			margin-left: 20px; 
+		} 
+	}
+
+	.basic_middle {
+
+		p { 
+			-webkit-columns: 1; 
+			-moz-columns: 1; 
+			columns: 1; 
+			-webkit-column-gap: 0px; 
+			-moz-column-gap: 0px; 
+			column-gap: 0px; 
+		}
+	}
+
+	.basic_left, .basic_right {
+
+		img { 
+			margin: 0 auto 30px auto; 
+		}
+	}
+
+	.basic_container {
+
+		.btn {
+			//padding: 15px 0;
+		}
+	}
+
+}/* 680 */
+
+@media only screen and (max-width : 575px) {
+
+	section {
+		padding: 30px 0;
+	}
+
+	.col {
+		width: 100%;
+	}
+	
+}/* 575 */
+
+@media only screen and (max-width : 480px) {
+
+
+}/* 480 */
+
+@media only screen and (max-width : 320px) {
+	
+}
